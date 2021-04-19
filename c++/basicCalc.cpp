@@ -22,10 +22,6 @@ int main()
   cout<<"Insert second Number : ";
   cin >> num2;
 
-
-
-
-
   switch(op){
     case 1:
       cout<<" Result is : " << num1 + num2 << endl;
