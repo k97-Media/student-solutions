@@ -1,0 +1,51 @@
+body {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+form {
+	margin: 1.5em auto;
+	padding: 1em;
+	border-radius: 2em;
+}
+
+form section {
+	margin: 0.8em auto;
+}
+.form1 {
+	background-color: yellow;
+	border: 4px dotted black;
+}
+
+.form1:hover {
+	box-shadow: 10px 5px 5px green;
+}
+
+.form1 label[for="option"] {
+	background-color: black;
+	color: snow;
+}
+
+.form1 label[for="time"] {
+	background-color: snow;
+	color: black;
+}
+
+.form1 select {
+	box-shadow: 6px 5px 5px red;
+}
+
+.form2 {
+	background-color: rgb(14, 209, 14);
+	border: 4px dotted yellow;
+}
+
+.form2:hover {
+	background-color: rgb(12, 141, 12);
+}
+
+.form2 input[type="submit"] {
+	margin: auto 25%;
+	border-radius: 2em;
+}
